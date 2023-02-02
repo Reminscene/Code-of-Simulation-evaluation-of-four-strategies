@@ -91,7 +91,7 @@ def simulation(grid_id, end_distance, vehicle_num):  # Output the average revenu
 
 
 print("Importing the grid division results... ...")
-with open('C://Users//张晨皓//Desktop//Simulation evaluation//data//0-1Grids.json', 'r', encoding='utf8') as fp:
+with open('D://状态升维马尔可夫计算（四叉树-大案例）//网格划分边界//0-1网格.json', 'r', encoding='utf8') as fp:
     grid_json = json.load(fp)
     Grid_gdf = gpd.GeoDataFrame.from_features(grid_json["features"])
 
